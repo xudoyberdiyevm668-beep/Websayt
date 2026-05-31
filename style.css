@@ -1,0 +1,146 @@
+*{
+  margin:0px;
+}
+nav{
+  height:50px;
+  width:100%;
+  background-color:#a3a3e7;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+nav > input{
+  border-radius: 10px;
+  border:none;
+}
+li > a{
+  color:black;
+}
+ul{
+  display:flex;
+  list-style: none;
+  gap:15px;
+}
+header{
+  width:100%;
+  height:300px;
+  background-image:url(https://m.atcdn.co.uk/ect/media/w600/34549e1fd20f49408ff7cd9fa7942d74.jpg);
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header > button{
+  width:90px;
+  height:30px;
+  border-radius: 16px;
+  border:none;
+  cursor:pointer;
+  background-color:#ff8d8d;
+  color:white;
+}
+header > p{
+  font-size:20px;
+}
+main{
+  width:100%;
+  height:300px;
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.box{
+  display:flex;
+}
+.box > img{
+  width:50%;
+}
+.quti1{
+  display:flex;
+  background-color:white;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  height:400px;
+  gap:10px;
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box2 > p{
+  font-size:20px;
+}
+.box2 > img{
+  width:190px;
+  height:300px;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box3 > p{
+  font-size:20px;
+}
+.box3 > img{
+  width:190px;
+  height:300px;
+}
+.box4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box4 > p{
+  font-size:20px;
+}
+.box4 > img{
+  width:300px;
+  height:200px;
+}
+.box5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box5 > p{
+  font-size:20px;
+}
+.box5 > img{
+  width:300px;
+  height:200px;
+}
+.quti2{
+  width:100%;
+  height:100px;
+  background-color:white;
+}
+.bir{
+  display:flex;
+  justify-content: space-between;
+}
+.ikki{
+  display:flex;
+  justify-content: space-between;
+}
+footer{
+  height:50px;
+  width:100%;
+  background-color:#a3a3e7;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  border-radius: 0px 0px 10px 10px;
+}
